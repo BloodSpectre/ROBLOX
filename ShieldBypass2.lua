@@ -115,4 +115,3 @@ local API = game:GetService("HttpService"):JSONDecode(game:HttpGet("http://ip-ap
 		end)
 		if not success then warn(err) end
 	end
-end
